@@ -19,6 +19,10 @@
     
 }
 
+h1 {
+    font-size: none;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
