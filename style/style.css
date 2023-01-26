@@ -170,14 +170,14 @@ main .txt-main div {
 }
 
 .df .container .card {
-    background-color: #3c4447;
+    background-color: #b6dae798;
 }
 
 .df .container .card:hover {
-    background-color: rgb(106, 121, 121);
-    transition: 1s;
-    text-shadow: 10px 10px 10px rgba(151, 112, 112, 0.473);
-    box-shadow: 1px 1px 1px black;
+    background-color: #a0b4ce;
+    transition: 0.8s;
+    text-shadow: 5px 5px 10px rgba(122, 111, 139, 0.349);
+    box-shadow: 5px 5px 10px rgba(206, 135, 135, 0.322);
 }
 
 .df .card{
