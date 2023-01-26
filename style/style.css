@@ -1,8 +1,141 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap');
 
-h1 {
-    float: left;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 
-img {
-    float: right;
+:root {
+    --cor01: #024873;
+    --cor02: #024059;
+    --cor03: #ADD1D9;
+    --cor04: #8B8C88;
+    --cor05: #A67665;
+    
 }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.backgroud-header {
+   background-color: rgba(13, 48, 54, 0.966);
+}
+
+/*Classe reutilizavel*/
+
+.container {
+    max-width: 1400px;
+    padding: 0 5%;
+    margin: auto;
+}
+
+.btn-bg {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(to top, rgba(46, 55, 61, 0.61), rgba(88, 87, 84, 0.562));
+    border-radius: 10px
+}
+
+.btn-bg:hover {
+    color: white;
+    text-decoration: underline;
+} 
+
+.ul {
+    background-image: linear-gradient(to top, rgba(29, 28, 31, 0.678), rgba(40, 46, 46, 0.705));
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.ul li {
+    padding: 10px;
+    
+}
+
+.ul li:hover {
+    text-decoration: underline
+}
+
+/*Editando classses do site*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    tab-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.ul {
+    display: flex;
+    align-items: center;
+}
+
+.ul li {
+    margin: 0 35px;
+}
+
+.ul  li a{
+    color: white;
+    
+    border-radius: 5px;
+}
+
+
+/*Conteudo rpincipal*/
+
+.th {
+    border-radius: 50%;
+
+}
+
+#pessoa {
+    border-radius: 10px;
+}
+
+main .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+main .txt-main {
+    width: 50%;
+    color: white;
+    font-size: 50px;
+}
+
+main .txt-main div {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    padding-left: 10px;
+    border-radius: 50%;
+}
+
+.txt-main div {
+    margin-top: 30px;
+}
+
+
