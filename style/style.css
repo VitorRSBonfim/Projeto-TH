@@ -99,6 +99,8 @@ nav {
 }
 
 
+
+
 /*Conteudo rpincipal*/
 
 .th {
@@ -136,10 +138,151 @@ main .txt-main div {
 .logo img {
     padding-left: 10px;
     border-radius: 50%;
+
 }
 
 .txt-main div {
     margin-top: 30px;
 }
+
+
+
+/*Editando menu*/
+
+.menu-icon {
+    display: none;
+    position: relative;
+    z-index: 10;
+}
+
+.df .container {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;
+}
+.df .container .card img {
+    width: 60px;
+}
+
+.df .card .titulo {
+    margin: 12px;
+    font-weight: 600;
+}
+
+.df .container .card {
+    background-color: #3c4447;
+}
+
+.df .container .card:hover {
+    background-color: rgb(106, 121, 121);
+    transition: 1s;
+    text-shadow: 10px 10px 10px rgba(151, 112, 112, 0.473);
+    box-shadow: 1px 1px 1px black;
+}
+
+.df .card{
+    width: 30%;
+    cursor: pointer;
+    padding: 30px;
+    border-radius: 15px;
+
+}
+
+.df .card {
+    margin: 10px;
+}
+
+
+
+/*media / resposividade do site*/
+
+@media (max-width: 960px) {
+    .menu-icon {
+
+        display: block;
+    
+    }
+
+    .ul {
+        position: fixed;
+        background-color: rgb(255, 0, 0);
+        top: 0;
+        width: 100%;
+        height: 100%;
+        left: 100%;
+        transition: 1s;
+        flex-direction: column;
+        align-items: center;
+
+        justify-content: center;
+    }
+
+    .ul.ativo {
+        left: 0;
+
+    }
+
+    .ul li {
+        font-size: 20px;
+        margin: 20px 0;
+    }
+    
+    main .container{
+        flex-direction: column;
+        
+    }
+
+    main .container .menu-icon{
+        width: 100%;
+
+    }
+
+    main .container .txt-main {
+        width: 100%;
+        text-align: center;
+        
+    }
+
+    main .container .txt-main div {
+        justify-content: center;
+    }
+    
+    main .container .txt-main h1 {
+        font-size: 4rem;
+    }
+
+    .df .container {
+        flex-direction: column;
+
+    }
+
+    .df .container .card {
+        width: 100%;
+    }
+
+   
+
+}
+
+.resultados .resultados-text {
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+
+
+
+    padding: 30px;
+
+
+}
+
+.resultados .container {
+    background-image: linear-gradient(to right, rgb(116, 106, 106), rgb(74, 74, 90));
+    border-radius: 10px;
+
+}
+
+
+
 
 
