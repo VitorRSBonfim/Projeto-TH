@@ -210,7 +210,9 @@ main .txt-main div {
     padding: 0 5%;
     margin: auto;
     background-image: linear-gradient(to right, rgb(116, 106, 106), rgb(74, 74, 90));
-    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 15px;
 
 }
 
@@ -219,15 +221,19 @@ main .txt-main div {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: 10px;
+    
 
 }
 
 .mb .container {
     color: white;
-    margin-top: 10px;
+    margin: 0;
     background-color: #b6dae798;
+    padding-right: 0px;
+    border-radius: 10px;
+
 }
+
 
 .mb {
     margin-bottom: 10px;
@@ -238,14 +244,23 @@ main .txt-main div {
     padding: 30px;
     max-width: 1400px;
     margin: auto;
-    border-radius: 10px;
+
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     color: white;
 
 }
 
+.mb .container img {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+}
+
 footer {
     background-color: rgba(13, 48, 54, 0.966);
-    border-radius: 10px;
+    margin-top: 20px;
+    
 }
 
 
@@ -274,6 +289,8 @@ footer .container ul a:hover {
 footer .container ul h3 {
     padding-bottom: 10px;
 }
+
+
 
 
 
@@ -346,14 +363,16 @@ footer .container ul h3 {
     .mb .container {
         flex-direction: column;
         font-size: 20px;
-        text-indent: 30px;
-        
+        padding-left: 5px;
 
     }
 
     .mb .container .img {
         border-radius: 10px;
+        width: 100%;
     }
+
+
    
     footer .container {
         flex-direction: column;

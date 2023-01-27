@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+nav {
+    position: fixed;
+    background-color: cornsilk;
+    text-align: center;
+}
+
+
+.container ul {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: inline-block;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.top-bg {
+    background-color: black;
+    max-width: 1400px;
+    margin: auto;
+    padding: 25px;
+}
+
+.container #section01 {
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-color: aqua;
+
+    display: flex;
+
+}
+/*Definindo backgropud de cada section*/
+
