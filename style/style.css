@@ -57,10 +57,13 @@ body {
     background-image: linear-gradient(to top, rgba(29, 28, 31, 0.678), rgba(40, 46, 46, 0.705));
     padding: 5px;
     border-radius: 10px;
+
+    
 }
 
 .ul li {
     padding: 10px;
+
     
 }
 
@@ -76,6 +79,8 @@ nav {
     align-items: center;
     padding: 20px;
 }
+
+
 
 .logo {
     tab-size: 30px;
@@ -101,12 +106,16 @@ nav {
 
 
 
+
+
 /*Conteudo rpincipal*/
 
 .th {
     border-radius: 50%;
 
 }
+
+
 
 #pessoa {
     border-radius: 10px;
@@ -138,8 +147,11 @@ main .txt-main div {
 .logo img {
     padding-left: 10px;
     border-radius: 50%;
+    justify-content: flex-end;
 
 }
+
+
 
 .txt-main div {
     margin-top: 30px;
@@ -190,6 +202,77 @@ main .txt-main div {
 
 .df .card {
     margin: 10px;
+}
+
+
+.mb {
+    max-width: 1400px;
+    padding: 0 5%;
+    margin: auto;
+    background-image: linear-gradient(to right, rgb(116, 106, 106), rgb(74, 74, 90));
+    border-radius: 10px;
+
+}
+
+
+.mb .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+
+}
+
+.mb .container {
+    color: white;
+    margin-top: 10px;
+    background-color: #b6dae798;
+}
+
+.mb {
+    margin-bottom: 10px;
+}
+
+.mbtop {
+    background-image: linear-gradient(to right, rgb(116, 106, 106), rgb(74, 74, 90));
+    padding: 30px;
+    max-width: 1400px;
+    margin: auto;
+    border-radius: 10px;
+    color: white;
+
+}
+
+footer {
+    background-color: rgba(13, 48, 54, 0.966);
+    border-radius: 10px;
+}
+
+
+
+footer .container {
+    display: flex;
+    padding: 10px;
+
+}
+
+footer .container ul {
+    color: white;
+    width: 25%;
+    padding-top: 30px;
+}
+
+footer .container ul a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .container ul a:hover {
+    text-decoration: underline;
+}
+
+footer .container ul h3 {
+    padding-bottom: 10px;
 }
 
 
@@ -260,7 +343,22 @@ main .txt-main div {
         width: 100%;
     }
 
+    .mb .container {
+        flex-direction: column;
+        font-size: 20px;
+        text-indent: 30px;
+        
+
+    }
+
+    .mb .container .img {
+        border-radius: 10px;
+    }
    
+    footer .container {
+        flex-direction: column;
+        align-items: center;
+    }
 
 }
 
@@ -281,7 +379,6 @@ main .txt-main div {
     border-radius: 10px;
 
 }
-
 
 
 
