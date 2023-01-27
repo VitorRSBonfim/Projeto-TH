@@ -59,5 +59,15 @@ nav {
     display: flex;
 
 }
+
+.vitor {
+    background-color: red;
+    padding: 30px;
+}
+
+h1 {
+    background-color: blue;
+}
+
 /*Definindo backgropud de cada section*/
 
