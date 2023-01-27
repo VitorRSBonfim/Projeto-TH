@@ -19,8 +19,6 @@
     
 }
 
-
-
 h1 {
     font-size: none;
 }
@@ -159,9 +157,6 @@ main .txt-main div {
     margin-top: 30px;
 }
 
-.main-img {
-    padding-bottom: 20px;
-}
 
 
 /*Editando menu*/
@@ -210,7 +205,6 @@ main .txt-main div {
 }
 
 
-
 .mb {
     max-width: 1400px;
     padding: 0 5%;
@@ -221,8 +215,6 @@ main .txt-main div {
     padding-bottom: 15px;
 
 }
-
-
 
 
 .mb .container {
@@ -299,7 +291,9 @@ footer .container ul h3 {
 }
 
 
-
+.main-img {
+    padding-bottom: 20px;
+}
 
 
 /*media / resposividade do site*/

@@ -216,6 +216,16 @@ main .txt-main div {
 
 }
 
+.mb .container h1 {
+    font-family: "Roboto";
+    font-weight: bold;
+    justify-content: space-between;
+    padding-right: 60px;
+}
+
+.mb .container p {
+    font-size: 20px;
+}
 
 .mb .container {
     display: flex;
@@ -263,11 +273,23 @@ footer {
     
 }
 
+.ul {
+    position: fixed;
+    padding-bottom: 10px;
+}
+
+.subir {
+    display: flex;
+
+}
+
+
+
 
 
 footer .container {
     display: flex;
-    padding: 10px;
+    display: flex;
 
 }
 
@@ -291,7 +313,9 @@ footer .container ul h3 {
 }
 
 
-
+.main-img {
+    padding-bottom: 20px;
+}
 
 
 /*media / resposividade do site*/
@@ -379,18 +403,43 @@ footer .container ul h3 {
         align-items: center;
     }
 
+    .mb .container h1 {
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+    .mb .container p {
+        padding: 30px;
+        text-align: left;
+    }
+
+    .menu-icon {
+        position: fixed;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    #dfr {
+        position: fixed;
+        margin-top: 15px;
+    
+    }
+    
+    #dfr li a {
+        color: white;
+
+    }
+    
+
 }
 
 .resultados .resultados-text {
     color: white;
     font-size: 1rem;
     font-weight: 600;
-
-
-
     padding: 30px;
-
-
 }
 
 .resultados .container {
@@ -399,6 +448,13 @@ footer .container ul h3 {
 
 }
 
+#myname {
+    color: #8B8C88;
+}
 
+.nomes {
+    padding: 5px;
+    padding-top: 10px;
+}
 
 
