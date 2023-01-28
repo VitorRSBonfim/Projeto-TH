@@ -19,6 +19,10 @@
     
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 h1 {
     font-size: none;
 }
@@ -284,9 +288,6 @@ footer {
 }
 
 
-
-
-
 footer .container {
     display: flex;
     display: flex;
@@ -306,17 +307,50 @@ footer .container ul a {
 
 footer .container ul a:hover {
     text-decoration: underline;
+
 }
 
 footer .container ul h3 {
     padding-bottom: 10px;
 }
 
-
 .main-img {
     padding-bottom: 20px;
 }
 
+nav {
+    padding-top: 5px;
+    margin-top: 0px;
+}
+
+.mb .container p {
+    padding: 10px;
+}
+
+
+.redes a{
+    display: flex;
+    align-items: center;
+}
+
+.redes a img {
+    width: 12%;
+    padding: 5px;
+}
+
+.container ul li a {
+    margin-top: 20px;
+    
+}
+
+.git-img {
+    display: flex;
+    align-items: center;
+}
+
+.git-img p {
+    padding-left: 10px;
+}
 
 /*media / resposividade do site*/
 
@@ -421,17 +455,29 @@ footer .container ul h3 {
         text-align: center;
     }
 
-    #dfr {
-        position: fixed;
-        margin-top: 15px;
-    
+    html{
+        scroll-behavior: smooth;
     }
-    
-    #dfr li a {
-        color: white;
 
+    .redes {
+        width: 250px;
+    }
+
+    .container h3 {
+        font-size: medium;
     }
     
+    .container .git-img p{
+        text-align: center
+    }
+
+    .container h3 {
+        font-size: medium;
+    }
+
+    .git-img p {
+        display: none;
+    }
 
 }
 

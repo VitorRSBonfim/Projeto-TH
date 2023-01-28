@@ -31,6 +31,18 @@ body {
    background-color: rgba(13, 48, 54, 0.966);
 }
 
+.map-g {
+    border-radius: 10px;
+}
+
+.map-m {
+    display: none;
+}
+
+.map-p {
+    display: none;
+}
+
 /*Classe reutilizavel*/
 
 .container {
@@ -157,7 +169,12 @@ main .txt-main div {
     margin-top: 30px;
 }
 
-
+.titulo {
+    background-color: #88b9d893;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+}
 
 /*Editando menu*/
 
@@ -167,10 +184,11 @@ main .txt-main div {
     z-index: 10;
 }
 
+
 .df .container {
     display: flex;
     justify-content: space-around;
-    margin: 30px auto;
+    margin: auto;
 }
 .df .container .card img {
     width: 60px;
@@ -193,7 +211,7 @@ main .txt-main div {
 }
 
 .df .card{
-    width: 30%;
+
     cursor: pointer;
     padding: 30px;
     border-radius: 15px;
@@ -202,12 +220,13 @@ main .txt-main div {
 
 .df .card {
     margin: 10px;
+    background-image: linear-gradient(to right, rgb(116, 106, 106), rgb(74, 74, 90));
 }
 
 
 .mb {
     max-width: 1400px;
-    padding: 0 5%;
+    padding: 0 ;
     margin: auto;
     background-image: linear-gradient(to right, rgb(116, 106, 106), rgb(74, 74, 90));
     border-bottom-left-radius: 10px;
@@ -219,29 +238,21 @@ main .txt-main div {
 
 .mb .container {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
 
 }
 
 .mb .container {
     color: white;
-    margin: 0;
-    background-color: #b6dae798;
+    margin-left: 30px;
     padding-right: 0px;
     border-radius: 10px;
-
+    
 }
 
-
-.mb {
-    margin-bottom: 10px;
-}
 
 .mbtop {
     background-image: linear-gradient(to right, rgb(116, 106, 106), rgb(74, 74, 90));
-    padding: 30px;
+
     max-width: 1400px;
     margin: auto;
 
@@ -295,6 +306,53 @@ footer .container ul h3 {
     padding-bottom: 20px;
 }
 
+nav {
+    padding-top: 5px;
+    margin-top: 0px;
+}
+
+.ul {
+    position: fixed;
+    padding-bottom: 10px;
+}
+
+
+
+
+.mbtop .container img {
+    width: 40px;
+    margin-top: 10px;
+
+    
+
+}
+
+.mbtop .container {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.wt {
+    color: white;
+}
+
+.wt:hover {
+    text-decoration: underline 2px;
+}
+
+.df .container {
+    text-align: center;
+}
+
+.titulo {
+    font-size: 1.8rem;
+}
+
+.menor {
+    padding-top: 10px;
+    font-size: 0.8rem;
+}
 
 /*media / resposividade do site*/
 
@@ -381,6 +439,50 @@ footer .container ul h3 {
         align-items: center;
     }
 
+    .map-g {
+        display: none;
+    }
+
+    .map-m {
+        display: flex;
+        width: 100%;
+    }
+    .ul {
+        position: fixed;
+        padding-bottom: 10px;
+    }
+    .menu-icon {
+        position: fixed;
+    }
+
+
+
+
+
+}
+
+
+
+@media (max-width: 460px) {
+
+    .ul {
+        position: fixed;
+        padding-bottom: 10px;
+    }
+
+    .map-g {
+        display: none;
+    }
+
+    .map-m {
+        display: none;
+    }
+
+    .map-p {
+        
+        display: flex;
+        width: 100%;
+    }
 }
 
 .resultados .resultados-text {

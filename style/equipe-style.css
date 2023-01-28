@@ -73,6 +73,12 @@ body {
     text-decoration: underline
 }
 
+.ul {
+    position: fixed;
+    padding-bottom: 10px;
+}
+
+
 /*Editando classses do site*/
 
 nav {
@@ -80,6 +86,11 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+}
+
+nav {
+    padding-top: 5px;
+    margin-top: 0px;
 }
 
 
@@ -207,6 +218,11 @@ main .txt-main div {
 
 .df .card {
     margin: 10px;
+}
+
+.df .card img {
+    border-radius: 50%;
+    margin-left: 20%;
 }
 
 
@@ -385,6 +401,11 @@ footer .container ul h3 {
     footer .container {
         flex-direction: column;
         align-items: center;
+    }
+
+    .df .card img {
+        border-radius: 50%;
+        margin-left: 8%;
     }
 
 }
