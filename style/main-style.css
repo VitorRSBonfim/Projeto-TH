@@ -61,14 +61,10 @@ body {
     background-image: linear-gradient(to top, rgba(29, 28, 31, 0.678), rgba(40, 46, 46, 0.705));
     padding: 5px;
     border-radius: 10px;
-
-    
 }
 
 .ul li {
     padding: 10px;
-
-    
 }
 
 .ul li:hover {
@@ -83,8 +79,6 @@ nav {
     align-items: center;
     padding: 20px;
 }
-
-
 
 .logo {
     tab-size: 30px;
@@ -102,24 +96,15 @@ nav {
 }
 
 .ul  li a{
-    color: white;
-    
+    color: white;    
     border-radius: 5px;
 }
-
-
-
-
-
 
 /*Conteudo rpincipal*/
 
 .th {
     border-radius: 50%;
-
 }
-
-
 
 #pessoa {
     border-radius: 10px;
@@ -155,13 +140,9 @@ main .txt-main div {
 
 }
 
-
-
 .txt-main div {
     margin-top: 30px;
 }
-
-
 
 /*Editando menu*/
 
@@ -201,7 +182,6 @@ main .txt-main div {
     cursor: pointer;
     padding: 30px;
     border-radius: 15px;
-
 }
 
 .df .card {
@@ -217,7 +197,6 @@ main .txt-main div {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding-bottom: 15px;
-
 }
 
 .mb .container h1 {
@@ -235,8 +214,6 @@ main .txt-main div {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
-
 }
 
 .mb .container {
@@ -245,9 +222,7 @@ main .txt-main div {
     background-color: #b6dae798;
     padding-right: 0px;
     border-radius: 10px;
-
 }
-
 
 .mb {
     margin-bottom: 10px;
@@ -258,23 +233,19 @@ main .txt-main div {
     padding: 30px;
     max-width: 1400px;
     margin: auto;
-
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     color: white;
-
 }
 
 .mb .container img {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-   
 }
 
 footer {
     background-color: rgba(13, 48, 54, 0.966);
     margin-top: 20px;
-    
 }
 
 .ul {
@@ -284,14 +255,11 @@ footer {
 
 .subir {
     display: flex;
-
 }
-
 
 footer .container {
     display: flex;
     display: flex;
-
 }
 
 footer .container ul {
@@ -307,7 +275,6 @@ footer .container ul a {
 
 footer .container ul a:hover {
     text-decoration: underline;
-
 }
 
 footer .container ul h3 {
@@ -327,7 +294,6 @@ nav {
     padding: 10px;
 }
 
-
 .redes a{
     display: flex;
     align-items: center;
@@ -339,8 +305,7 @@ nav {
 }
 
 .container ul li a {
-    margin-top: 20px;
-    
+    margin-top: 20px;    
 }
 
 .git-img {
@@ -356,9 +321,7 @@ nav {
 
 @media (max-width: 960px) {
     .menu-icon {
-
         display: block;
-    
     }
 
     .ul {
@@ -371,13 +334,11 @@ nav {
         transition: 1s;
         flex-direction: column;
         align-items: center;
-
         justify-content: center;
     }
 
     .ul.ativo {
         left: 0;
-
     }
 
     .ul li {
@@ -387,18 +348,15 @@ nav {
     
     main .container{
         flex-direction: column;
-        
     }
 
     main .container .menu-icon{
         width: 100%;
-
     }
 
     main .container .txt-main {
         width: 100%;
         text-align: center;
-        
     }
 
     main .container .txt-main div {
@@ -411,7 +369,6 @@ nav {
 
     .df .container {
         flex-direction: column;
-
     }
 
     .df .container .card {
@@ -422,7 +379,6 @@ nav {
         flex-direction: column;
         font-size: 20px;
         padding-left: 5px;
-
     }
 
     .mb .container .img {
@@ -479,6 +435,14 @@ nav {
         display: none;
     }
 
+    .mb .container {
+        padding-left: 0px;
+    }
+
+    .mb .container .img {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
 }
 
 .resultados .resultados-text {
@@ -491,7 +455,6 @@ nav {
 .resultados .container {
     background-image: linear-gradient(to right, rgb(116, 106, 106), rgb(74, 74, 90));
     border-radius: 10px;
-
 }
 
 #myname {
@@ -502,5 +465,3 @@ nav {
     padding: 5px;
     padding-top: 10px;
 }
-
-
