@@ -462,21 +462,16 @@ nav {
         margin: 0px;
     }
 
-    #pessoa {
-        display: none;
-    }
-
-}
-
-
-@media (max-width: 820px) {
-    #pessoa {
-        display: none;
-    }
     
 }
 
 
+@media (max-width: 200px) {
+    pessoa {
+        display: none;
+    }
+
+}
 
 .resultados .resultados-text {
     color: white;
@@ -498,8 +493,4 @@ nav {
     padding: 5px;
     padding-top: 10px;
 }
-
-
-
-
 
