@@ -354,6 +354,30 @@ nav {
     font-size: 0.8rem;
 }
 
+.redes a{
+    display: flex;
+    align-items: center;
+}
+
+.redes a img {
+    width: 12%;
+    padding: 5px;
+}
+
+.container ul li a {
+    margin-top: 20px;    
+}
+
+.git-img {
+    display: flex;
+    align-items: center;
+}
+
+.git-img p {
+    padding-left: 10px;
+}
+
+
 /*media / resposividade do site*/
 
 @media (max-width: 960px) {
@@ -432,8 +456,6 @@ nav {
         width: 100%;
     }
 
-
-   
     footer .container {
         flex-direction: column;
         align-items: center;
@@ -451,19 +473,41 @@ nav {
         position: fixed;
         padding-bottom: 10px;
     }
+    
     .menu-icon {
         position: fixed;
     }
+    .redes {
+        width: 250px;
+    }
+    .git-img p {
+        display: none;
+    }
 
-
-
-
+    .df .duv .container {
+        margin-top: 5px;
+    }
 
 }
 
 
+.resultados .resultados-text {
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 30px; 
+}
+
+.resultados .container {
+    background-image: linear-gradient(to right, rgb(116, 106, 106), rgb(74, 74, 90));
+    border-radius: 10px;
+
+}
 
 @media (max-width: 460px) {
+
+    
+
 
     .ul {
         position: fixed;
@@ -485,15 +529,64 @@ nav {
     }
 }
 
-.resultados .resultados-text {
-    color: white;
-    font-size: 1rem;
-    font-weight: 600;
-    padding: 30px;
+.duv {
+    max-width: 1400px;
+    margin: auto;
 }
 
-.resultados .container {
+.duv .container {
     background-image: linear-gradient(to right, rgb(116, 106, 106), rgb(74, 74, 90));
+    padding: 50px;
+    color: white;
     border-radius: 10px;
+    margin-top: 100px;
+    width: 100%;
+}
 
+.hr-top {
+    width: auto;
+    padding: 2px;
+    background-color: #7f959c77;
+    border: 0;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+.duv h1 {
+    padding: 10px;
+    color: white;
+}
+
+.nome {
+    padding: 10px;
+
+}
+
+.div-nome {
+    padding: 10px;
+}
+
+
+label.email {
+    padding-left: 10px;
+}
+
+.div-email {
+    padding: 10px;
+}
+
+.msg {
+    padding: 10px;
+}
+
+.entry-msg {
+    padding: 10px;
+}
+
+.entry-msg textarea{
+    border-radius: 5px;
+}
+
+.enviar {
+    padding: 10px;
 }

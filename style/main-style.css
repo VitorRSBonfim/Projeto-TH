@@ -25,11 +25,13 @@ html{
 
 h1 {
     font-size: none;
+    
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
 
 .backgroud-header {
    background-color: rgba(13, 48, 54, 0.966);
@@ -203,7 +205,7 @@ main .txt-main div {
     font-family: "Roboto";
     font-weight: bold;
     justify-content: space-between;
-    padding-right: 60px;
+    padding-right: 40px;
 }
 
 .mb .container p {
@@ -236,6 +238,10 @@ main .txt-main div {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     color: white;
+}
+
+.pamb {
+    padding-right: 30px;
 }
 
 .mb .container img {
@@ -290,9 +296,6 @@ nav {
     margin-top: 0px;
 }
 
-.mb .container p {
-    padding: 10px;
-}
 
 .redes a{
     display: flex;
@@ -348,6 +351,7 @@ nav {
     
     main .container{
         flex-direction: column;
+        
     }
 
     main .container .menu-icon{
@@ -443,7 +447,36 @@ nav {
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
     }
+
+    .txt-main {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .df .container {
+        padding: 0px;
+    }
+
+    .df .container .card {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #pessoa {
+        display: none;
+    }
+
 }
+
+
+@media (max-width: 820px) {
+    #pessoa {
+        display: none;
+    }
+    
+}
+
+
 
 .resultados .resultados-text {
     color: white;
@@ -465,3 +498,8 @@ nav {
     padding: 5px;
     padding-top: 10px;
 }
+
+
+
+
+

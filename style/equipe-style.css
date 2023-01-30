@@ -284,15 +284,10 @@ main .txt-main div {
 footer {
     background-color: rgba(13, 48, 54, 0.966);
     margin-top: 20px;
-    
 }
-
-
-
 footer .container {
     display: flex;
-    padding: 10px;
-
+    display: flex;
 }
 
 footer .container ul {
@@ -300,7 +295,6 @@ footer .container ul {
     width: 25%;
     padding-top: 30px;
 }
-
 footer .container ul a {
     color: white;
     text-decoration: none;
@@ -313,6 +307,69 @@ footer .container ul a:hover {
 footer .container ul h3 {
     padding-bottom: 10px;
 }
+.redes a{
+    display: flex;
+    align-items: center;
+}
+
+.redes a img {
+    width: 12%;
+    padding: 5px;
+}
+
+.git-img {
+    display: flex;
+    align-items: center;
+}
+
+.git-img p {
+    padding-left: 10px;
+}
+
+footer {
+    background-color: rgba(13, 48, 54, 0.966);
+    margin-top: 20px;
+}
+footer .container {
+    display: flex;
+    display: flex;
+}
+
+footer .container ul {
+    color: white;
+    width: 25%;
+    padding-top: 30px;
+}
+footer .container ul a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .container ul a:hover {
+    text-decoration: underline;
+}
+
+footer .container ul h3 {
+    padding-bottom: 10px;
+}
+.redes a{
+    display: flex;
+    align-items: center;
+}
+
+.redes a img {
+    width: 12%;
+    padding: 5px;
+}
+
+.git-img {
+    display: flex;
+    align-items: center;
+}
+
+.git-img p {
+    padding-left: 10px;
+}
 
 
 
@@ -322,9 +379,8 @@ footer .container ul h3 {
 
 @media (max-width: 960px) {
     .menu-icon {
-
         display: block;
-    
+        position: fixed;
     }
 
     .ul {
@@ -396,18 +452,64 @@ footer .container ul h3 {
         width: 100%;
     }
 
-
+    main .container .txt-main{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
    
     footer .container {
         flex-direction: column;
         align-items: center;
     }
 
-    .df .card img {
-        border-radius: 50%;
-        margin-left: 8%;
+    .redes {
+        width: 250px;
     }
 
+    .container h3 {
+        font-size: medium;
+    }
+    
+    .container .git-img p{
+        text-align: center
+    }
+
+    .container h3 {
+        font-size: medium;
+    }
+    .git-img p {
+        display: none;
+    }
+    .mb .container {
+        padding-left: 0px;
+    }
+    .mb .container .img {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+
+
+}
+
+@media (max-width: 1300px) {
+
+    main .container .txt-main{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .df .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .df .container .card {
+        width: 100%;
+    }
+
+    .df .container .card img {
+        margin-left: auto;
+    }
 }
 
 .resultados .resultados-text {
