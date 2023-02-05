@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
 
 * {
     padding: 0;
@@ -18,6 +19,32 @@
     --cor05: #A67665;
     
 }
+
+/*Redes footer*/
+
+
+.lk-redes p {
+    display: none;
+}
+
+.lk-redes img {
+    margin-left: 10px;
+}
+
+footer .container .inte {
+    padding: 2px;
+    font-size: 100%;
+}
+
+#link-contato {
+    text-decoration: none;
+    color: white;
+}
+
+#link-contato:hover {
+    text-decoration: underline solid 2px;
+}
+
 
 html{
     scroll-behavior: smooth;
@@ -71,6 +98,10 @@ body {
 
 .ul li:hover {
     text-decoration: underline
+}
+
+.ul li {
+    color: white;
 }
 
 /*Editando classses do site*/
@@ -145,9 +176,6 @@ main .txt-main div {
 .txt-main div {
     margin-top: 30px;
 }
-
-
-
 
 /*Editando menu*/
 
@@ -461,8 +489,15 @@ nav {
     }
 
     .df .container .card {
-        padding: 0px;
-        margin: 0px;
+        padding: 10px;
+        margin: 0;
+        margin-top: 10px;
+        
+    }
+
+
+    .df .container {
+        padding: 5px;
     }
 
     
