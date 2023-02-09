@@ -548,6 +548,14 @@ nav {
     .df .container .card p {
         padding: 5px;
     }
+    
+    .git-img {
+        display: none;
+    }
+
+    .main-img {
+        width: 30%;
+    }
 
 }
 
