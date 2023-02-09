@@ -27,12 +27,22 @@
 
 
 
+
+
 .lk-redes p {
     display: none;
 }
 
 .lk-redes img {
     margin-left: 10px;
+    width: 25px;
+    flex-direction: column;
+}
+
+.lk-redes {
+    display: flex;
+    flex-direction: column;
+
 }
 
 footer .container .inte {
@@ -142,6 +152,10 @@ nav {
 .th {
     border-radius: 50%;
     font-family: 'Montserrat';
+}
+
+.container .txt-main .th {
+    font-size: 100%;
 }
 
 #pessoa {
@@ -325,6 +339,12 @@ footer .container ul h3 {
 
 .main-img {
     padding-bottom: 20px;
+
+}
+
+.main-img img {
+    width: 100%;
+
 }
 
 nav {
@@ -344,7 +364,7 @@ nav {
 }
 
 .container ul li a {
-    margin-top: 20px;    
+    margin-top: 15px;    
 }
 
 .git-img {
@@ -508,56 +528,38 @@ nav {
     
 }
 
+/*Fontes do site responsivas*/
 
-@media (max-width: 320px) {
-    .main-img img {
-        width: 100%;
-    }
-
-    .dfr {
-        width: 100%;
-    }
-    
-    .container .red .lk-redes img{
-        padding-top: 5px;
-        width: 20px;
-        
-    }
-
+@media (max-width: 1024px) {
     .container .txt-main .th {
-        font-size: 40px;
+        font-size: 100%;
+    }
+}
 
+@media (max-width: 375px) {
+    .container .txt-main .th {
+        font-size: 70%;
     }
 
     .container .txt-main p {
-        font-size: 15px;
-    }
-
-
-    /*Tamanho de font medium
-    
-    font weight 600
-    */
-
-
-    .resultados-text h1 {
-        font-weight: 600;
-        font-size: medium;
-    }
-
-    .df .container .card p {
-        padding: 5px;
-    }
-    
-    .git-img {
-        display: none;
-    }
-
-    .main-img {
-        width: 30%;
+        padding-top: 10px;
+        font-size: 35%;
     }
 
 }
+
+
+@media (max-width: 320px) {
+    .container .txt-main .th {
+        font-size: 70%;
+    }
+
+    .container .txt-main p {
+        padding-top: 10px;
+        font-size: 35%;
+    }
+}
+
 
 .resultados .resultados-text {
     color: white;

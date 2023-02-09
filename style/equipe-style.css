@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 * {
     padding: 0;
@@ -20,6 +21,24 @@
 }
 
 
+.lk-redes p {
+    display: none;
+}
+.lk-redes img {
+    margin-left: 10px;
+    width: 25px;
+    flex-direction: column;
+
+}
+
+.container ul li a {
+    margin-top: 15px;    
+}
+
+.lk-redes {
+    display: flex;
+    flex-direction: column;
+}
 
 h1 {
     font-size: none;
@@ -125,6 +144,16 @@ nav {
 
 .th {
     border-radius: 50%;
+    font-family: 'Montserrat';
+}
+
+.container .txt-main .th {
+    font-size: 100%;
+}
+
+
+.th {
+    border-radius: 50%;
 
 }
 
@@ -222,7 +251,7 @@ main .txt-main div {
 
 .df .card img {
     border-radius: 50%;
-    margin-left: 20%;
+    margin-left: 5px;
 }
 
 
@@ -377,7 +406,23 @@ footer .container ul h3 {
 
 /*media / resposividade do site*/
 
-@media (max-width: 960px) {
+@media (max-width: 1212px) {
+    .df .container {
+        flex-direction: column;
+    }
+    .df .container .card {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 1020px) {
+
+    .df .card img {
+        margin-left: 5px;
+    }
+    
+
     .menu-icon {
         display: block;
         position: fixed;
@@ -488,29 +533,10 @@ footer .container ul h3 {
         border-top-right-radius: 0px;
     }
 
-
+    
 }
 
-@media (max-width: 1300px) {
 
-    main .container .txt-main{
-        margin-top: 10px;
-        margin-bottom: 30px;
-    }
-
-    .df .container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .df .container .card {
-        width: 100%;
-    }
-
-    .df .container .card img {
-        margin-left: auto;
-    }
-}
 
 @media (max-width: 320px) {
     .main-img img {
@@ -554,6 +580,37 @@ footer .container ul h3 {
 
 }
 
+@media (max-width: 1024px) {
+    .container .txt-main .th {
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    .container .txt-main .th {
+        font-size: 70%;
+    }
+
+    .container .txt-main p {
+        padding-top: 10px;
+        font-size: 35%;
+    }
+
+}
+
+
+@media (max-width: 320px) {
+    .container .txt-main .th {
+        font-size: 70%;
+    }
+
+    .container .txt-main p {
+        padding-top: 10px;
+        font-size: 35%;
+    }
+}
+
+
 
 .resultados .resultados-text {
     color: white;
@@ -567,3 +624,9 @@ footer .container ul h3 {
     border-radius: 10px;
 
 }
+
+.df .container .card p {
+    width: 100%;
+    padding: 10px;
+}
+
