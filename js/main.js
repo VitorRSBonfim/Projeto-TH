@@ -10,3 +10,4 @@ menu.addEventListener('click', ()=>{
         document.querySelector('.menu-icon img').src ='imgs/close.png'
     }
 })
+

@@ -3,15 +3,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
-/*Logo ("Parte de cima")*/
+/*Fonte para títulod de cada seção*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-/*Conteudo de Titulo principal*/
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
-/*Cnteudo de subtitulo principal*/
 
-/*Conteudo de paragrafo de leitura*/
+/*Fonte para conteudo em p*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+/*Outros titulos de sub*/
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
+
+/*Meio ambiente*/
+
+@import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
+
 
 * {
     padding: 0;
@@ -30,6 +35,24 @@
     
 }
 
+.mb .container .serv {
+    font-family: 'Hind+Madura';
+    font-size: xx-large;
+}
+
+.mb .container .pamb {
+    font-family: 'Dosis';
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+.txt-main {
+    padding-bottom: 10px;
+}
+
+footer .container {
+    justify-content: space;
+}
 
 
 /*Redes footer*/
@@ -51,14 +74,12 @@
 .lk-redes {
     display: flex;
     flex-direction: column;
-
 }
 
 footer .container .inte {
     padding: 2px;
     font-size: 100%;
 }
-
 #link-contato {
     text-decoration: none;
     color: white;
@@ -68,6 +89,9 @@ footer .container .inte {
     text-decoration: underline solid 2px;
 }
 
+footer .container {
+    justify-content: space-between;
+}
 
 html{
     scroll-behavior: smooth;
@@ -582,6 +606,13 @@ nav {
 .resultados .container {
     background-image: linear-gradient(to right, rgb(116, 106, 106), rgb(74, 74, 90));
     border-radius: 10px;
+    height: 15px;
+    
+}
+
+.resultados .container {
+    background-image: linear-gradient(to right, rgb(116, 106, 106), rgb(74, 74, 90));
+    border-radius: 10px;
 }
 
 #myname {
@@ -589,8 +620,11 @@ nav {
 }
 
 .nomes {
-    padding: 5px;
     padding-top: 10px;
+}
+
+.container ul li a{
+    margin-top: 10px;
 }
 
 .mb {
@@ -619,9 +653,8 @@ nav {
     }
     
     .container .red .lk-redes img{
-        padding-top: 5px;
-        width: 20px;
-        
+        padding-top: 0px;
+        width: 25px;
     }
 
     .container .txt-main .th {
@@ -650,5 +683,52 @@ nav {
     }
 
 }
+
+@media (max-width: 1024px) {
+    .container .txt-main .th {
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    .container .txt-main .th {
+        font-size: 70%;
+    }
+
+    .container .txt-main p {
+        padding-top: 10px;
+        font-size: 35%;
+    }
+
+}
+
+
+@media (max-width: 320px) {
+    .container .txt-main .th {
+        font-size: 70%;
+    }
+
+    .container .txt-main p {
+        padding-top: 10px;
+        font-size: 35%;
+    }
+}
+
+footer .container .inte {
+    padding: 2px;
+}
+
+
+
+main .container {
+    max-width: 1400px;
+    margin: auto;
+    padding: 0;
+}
+
+.lk-redes-img {
+    padding: 0px;
+}
+
 
 

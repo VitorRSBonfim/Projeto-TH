@@ -2,7 +2,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
+
+/*Fonte para títulod de cada seção*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/*Fonte para conteudo em p*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
+/*Outros titulos de sub*/
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
+
+/*Meio ambiente*/
+
+@import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
+
+.resultados-text h1 {
+    font-family: 'Hind+Madurai';
+    font-size: x-large;
+
+}
+
+
+.mb .container .h1{
+    font-family: 'Paprika';
+    
+}
+.pamb {
+    font-family: 'Dosis';
+    font-size: xx-large
+}
+
+    
+.th {
+    font-family: 'Montserrat';
+}
+
+.th-p {
+    font-family: 'Dosis';
+}
+
+footer .container {
+    justify-content: space-between;
+}
+
+.df .container .card h3.titulo{
+    font-weight: lighter;
+    font-size: x-large;
+    font-family: 'Hind+Madurai';
+}
+
+.df .container .card p{
+    font-family: 'Dosis';
+    font-weight: lighter;
+    font-size: larger;
+}
 
 * {
     padding: 0;
@@ -21,13 +75,7 @@
     
 }
 
-
-
 /*Redes footer*/
-
-
-
-
 
 .lk-redes p {
     display: none;
@@ -42,7 +90,6 @@
 .lk-redes {
     display: flex;
     flex-direction: column;
-
 }
 
 footer .container .inte {
@@ -51,7 +98,7 @@ footer .container .inte {
 }
 
 #link-contato {
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
 }
 
@@ -71,6 +118,7 @@ h1 {
 
 body {
     font-family: 'Open Sans', sans-serif;
+   
 }
 
 
@@ -215,19 +263,14 @@ main .txt-main div {
 
 .df .card .titulo {
     margin: 12px;
-    font-weight: 600;
+    
 }
 
 .df .container .card {
     background-color: #b6dae798;
 }
 
-.df .container .card:hover {
-    background-color: #a0b4ce;
-    transition: 0.8s;
-    text-shadow: 5px 5px 10px rgba(122, 111, 139, 0.349);
-    box-shadow: 5px 5px 10px rgba(206, 135, 135, 0.322);
-}
+
 
 .df .card{
     width: 30%;
@@ -364,7 +407,7 @@ nav {
 }
 
 .container ul li a {
-    margin-top: 15px;    
+    margin-top: 10px;    
 }
 
 .git-img {
@@ -385,7 +428,7 @@ nav {
 
     .ul {
         position: fixed;
-        background-color: rgb(255, 0, 0);
+        background-color: #16373D;
         top: 0;
         width: 100%;
         height: 100%;
@@ -578,7 +621,9 @@ nav {
 }
 
 .nomes {
-    padding: 5px;
     padding-top: 10px;
 }
+
+
+
 

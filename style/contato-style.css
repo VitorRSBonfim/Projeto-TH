@@ -2,6 +2,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap');
 
+/*Fonte para títulod de cada seção*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/*Fonte para conteudo em p*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
+/*Outros titulos de sub*/
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
+
+/*Meio ambiente*/
+
+@import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
+
+
+
+footer .container {
+    justify-content: space-between;
+}
+
+
+
 * {
     padding: 0;
     margin: 0;
@@ -16,6 +38,38 @@
     --cor03: #ADD1D9;
     --cor04: #8B8C88;
     --cor05: #A67665;
+    
+}
+
+.df .container .titulo {
+    font-weight: lighter;
+    font-size: xx-large;
+    font-family: 'Hind+Madurai';
+}
+
+.df .container .menor {
+    font-family: 'Dosis';
+    font-size: large;
+    font-weight: lighter;
+}
+
+.th {
+    font-family: 'Montserrat';
+}
+
+
+.container {
+    max-width: 1400px;
+    margin: 0;
+    margin: auto;
+}
+main .container .txt-main .th {
+    font-size: 100%;
+}
+
+main .container {
+    max-width: 1400px;
+    margin: 0;
     
 }
 
@@ -144,6 +198,7 @@ main .txt-main {
     width: 50%;
     color: white;
     font-size: 50px;
+    margin-bottom: 10px;
 }
 
 main .txt-main div {
@@ -189,6 +244,7 @@ main .txt-main div {
     display: flex;
     justify-content: space-around;
     margin: auto;
+    
 }
 .df .container .card img {
     width: 60px;
@@ -278,8 +334,7 @@ footer {
 
 footer .container {
     display: flex;
-    padding: 10px;
-
+    max-width: 1400px;
 }
 
 footer .container ul {
@@ -364,9 +419,7 @@ nav {
     padding: 5px;
 }
 
-.container ul li a {
-    margin-top: 20px;    
-}
+
 
 .git-img {
     display: flex;
@@ -389,7 +442,7 @@ nav {
 
     .ul {
         position: fixed;
-        background-color: rgb(255, 0, 0);
+        background-color: #16373D;
         top: 0;
         width: 100%;
         height: 100%;
@@ -397,7 +450,6 @@ nav {
         transition: 1s;
         flex-direction: column;
         align-items: center;
-
         justify-content: center;
     }
 
@@ -501,6 +553,7 @@ nav {
 .resultados .container {
     background-image: linear-gradient(to right, rgb(116, 106, 106), rgb(74, 74, 90));
     border-radius: 10px;
+    height: 15px;
 
 }
 
@@ -622,6 +675,66 @@ nav {
 }
 
 
+@media (max-width: 1024px) {
+    .container .txt-main .th {
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    .container .txt-main .th {
+        font-size: 70%;
+    }
+
+    .container .txt-main p {
+        padding-top: 10px;
+        font-size: 35%;
+    }
+
+}
+
+
+@media (max-width: 320px) {
+    .container .txt-main .th {
+        font-size: 70%;
+    }
+
+    .container .txt-main p {
+        padding-top: 10px;
+        font-size: 35%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container .txt-main .th {
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    .container .txt-main .th {
+        font-size: 70%;
+    }
+
+    .container .txt-main p {
+        padding-top: 10px;
+        font-size: 35%;
+    }
+
+}
+
+
+@media (max-width: 320px) {
+    .container .txt-main .th {
+        font-size: 70%;
+    }
+
+    .container .txt-main p {
+        padding-top: 10px;
+        font-size: 35%;
+    }
+}
+
 .duv {
     max-width: 1400px;
     margin: auto;
@@ -683,3 +796,39 @@ label.email {
 .enviar {
     padding: 10px;
 }
+
+footer .container ul li a p {
+    display: none;
+}
+
+.lk-redes img {
+    margin-left: 10px;
+    width: 25px;
+    flex-direction: column;
+}
+
+.lk-redes {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nomes {
+    padding-top: 10px;
+}
+
+footer .container .inte {
+    padding: 2px;
+    font-size: 100%;
+}
+
+.container ul li a {
+    margin-top: 10px;    
+}
+
+main .container {
+    max-width: 1400px;
+    margin: auto;
+    padding: 0;
+}
+
